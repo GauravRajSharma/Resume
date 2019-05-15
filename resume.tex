@@ -1,12 +1,65 @@
+\documentclass{ResumeClass} % Use the custom resume.cls style
 
-\documentclass{ResumeClass}
-
-
-
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Gaurav Raj Sharma}
+\address{\faPhone \ \href{tel:9779860667795}{(+977)9860667795} \ \faEnvelope \ \href{mailto:gauravrajsharma053@gmail.com}{gauravrajsharma053}}
+\address{ \href{https://github.com/GauravRajSharma} {\faGithub \ GauravRajSharma}}
+\address{Kharibot-16, Banasthali, Kathmandu}
 \begin{document}
 
-\section{Working Directory}
-Hello Everyone, Yes this is my resume me \textbf{MIND = BLOWN}.
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Kathmandu Engineering College, Kalimati} \hfill {\em 2015 - Present} 
+\\Bachelors in Computer Engineering
+
+{\bf National Institute Of Sciences, Lainchour} \hfill {\em 2013 - 2015}
+\\High Secondary School (+2) Physical Science
+\end{rSection}
+
+\begin{rSection}{Carrier Objective}
+To develop systems using Information Technologies which are sustainable, maintainable and expandable.
+\end{rSection}
+%--------------------------------------------------------------------------------
+%    Projects
+%-----------------------------------------------------------------------------------------------
+\begin{rSection}{Projects}  
+{\bf Audio Genre Classification and Separation}
+\\Classification of different Music-Audio Files according to their genre using Artificial Intelligence. Audio Component
+Separation from Music-Audio Files.
+\\ \textbf{Tech Stack: Dart, Python, Javascript, Flask, Scipy, Matplotlib, Tensorflow, Keras}
+
+{\bf Student Management and Analysis System}
+\\ Basic Webapp and Andriod mobile app for managing student attendance, assignments and exam reports.
+\\ \textbf{Tech Stack: Firebase, React, HTML, CSS, RESTFUL API}
 
 
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Strengths}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Languages & Python, Javascript, Dart, PostgreSQL \\
+Technologies & React, Flask, Typescript, Flutter, HTML, CSS\\
+Tools & Docker, Git, Webpack-Basics, Bash-Scripting, \LaTeX
+\end{tabular}
+
+\end{rSection}
+
+\begin{rSection}{Personal Traits}
+\item Linux User
+\item Enjoys Programming with Modern Paradigms.
+\item Highly motivated and eager to learn new things.
+\item Ability to work as an individual as well as in group.
+\end{rSection}
 \end{document}
