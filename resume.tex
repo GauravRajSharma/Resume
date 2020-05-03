@@ -1,4 +1,4 @@
-\documentclass{ResumeClass} % Use the custom resume.cls style
+\documentclass{resume} % Use the custom resume.cls style
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
 \usepackage{fontawesome5}
@@ -8,58 +8,62 @@
 \name{Gaurav Raj Sharma}
 \address{\faPhone \ \href{tel:9779860667795}{(+977)9860667795} \ \faEnvelope \ \href{mailto:gauravrajsharma053@gmail.com}{gauravrajsharma053}}
 \address{ \href{https://github.com/GauravRajSharma} {\faGithub \ GauravRajSharma}}
-\address{Kharibot-16, Banasthali, Kathmandu}
+\address{Banasthali, Kathmandu}
 \begin{document}
 
-%----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Education}
-
-{\bf Kathmandu Engineering College, Kalimati} \hfill {\em 2015 - Present}
-\\Bachelors in Computer Engineering
-
-{\bf National Institute Of Sciences, Lainchour} \hfill {\em 2013 - 2015}
-\\High Secondary School (+2) Physical Science
+\begin{rSection}{Profile Summary}
+\begin{itemize}
+    \item  Experienced in full-stack application design, development and maintenance.
+    \item  Quickly can learn and adapt to new technologies; successful working in both teams and solo endeavours.
+\end{itemize}
 \end{rSection}
 
-\begin{rSection}{Carrier Objective}
-To develop systems using Information Technologies which are sustainable, maintainable and expandable.
+\begin{rSection}{Experience}
+\large{{\bf Full Stack Junior Developer}}
+\\ \small{\textit{Podamibe Pvt. Ltd./Kathamndu 2019-Present}}
+\begin{itemize}
+    \item \textbf{Interactive Voice Response System.}
+        \begin{itemize}
+            \item Designed and Implemented easily scalable and infinitely configurable Interactive Voice Response system
+            with Subscription Based Payment and analytics.
+            \\ \footnotesize{\textbf{Tech Stack: Django (analytics and configuration management), Nodejs (interaction with low level IVR), React (Control Panel)}}
+        \end{itemize}
+    
+    \item \textbf{Subscription based auto-renewal Payment System}
+        \begin{itemize}
+            \item Successful designed and implemented auto-renewal subscription system.
+            \\ \footnotesize{\textbf{Tech Stack: Django, Javascript (React), docker, postgreSQL, RabbitMQ}}
+        \end{itemize}
+    
+    \item \textbf{General Purpose e-Payment Integration System.}
+        \begin{itemize}
+            \item Internal tool for easily integrating mutliple e-payment vendors through single unified API. With added features like user-management, analytics, real-time dashboard
+            \\ \footnotesize{\textbf{Tech Stack: Django, Javascript (React with next.js), docker, postgreSQL}}    
+        \end{itemize}
+    
+    \item \textbf{Platform agnostic log aggregation system.}
+        \begin{itemize}
+            \item Queue-based automatic log aggregation for properly managing and storing
+            logs from different application sources.
+            \\ \footnotesize{\textbf{Tech Stack: RabbitMQ, golang, python, docker, postgreSQL}}
+        \end{itemize}
+\end{itemize}
+
 \end{rSection}
-%--------------------------------------------------------------------------------
-%    Projects
-%-----------------------------------------------------------------------------------------------
-\begin{rSection}{Projects}
-{\bf Audio Genre Classification and Separation}
-\\Classification of different Music-Audio Files according to their genre using Artificial Intelligence. Audio Component
-Separation from Music-Audio Files.
-\\ \textbf{Tech Stack: Dart, Python, Javascript, Flask, Scipy, Matplotlib, Tensorflow, Keras}
 
-{\bf Student Management and Analysis System}
-\\ Basic Webapp and Andriod mobile app for managing student attendance, assignments and exam reports.
-\\ \textbf{Tech Stack: Firebase, React, HTML, CSS, RESTFUL API}
-
-
-\end{rSection}
-%----------------------------------------------------------------------------------------
-%	TECHNICAL STRENGTHS SECTION
-%----------------------------------------------------------------------------------------
 
 \begin{rSection}{Technical Strengths}
-
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Languages & Python, Javascript, Dart, PostgreSQL \\
-Technologies & React, Flask, Redux, Typescript, Flutter, HTML, CSS\\
-Tools & Docker, Git, Webpack-Basics, Bash-Scripting, \LaTeX
+Languages & javascript ( including nodejs ), python, golang, postgreSQL \\
+Technologies & react ( with next.js ), django, rabbitMQ, nginx\\
+Tools & git, docker, linux-os, bash/shell-scripting
 \end{tabular}
-
 \end{rSection}
 
-\begin{rSection}{Personal Traits}
-\item Linux User
-\item Enjoys Programming with Modern Paradigms.
-\item Highly motivated and eager to learn new things.
-\item Ability to work as an individual as well as in group.
+\begin{rSection}{Education}
+    {\bf Kathmandu Engineering College, Kalimati} \hfill 2015 - 2019
+    \\Bachelors in Computer Engineering
 \end{rSection}
+
 \end{document}
+
