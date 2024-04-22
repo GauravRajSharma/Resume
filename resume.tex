@@ -1,91 +1,106 @@
 \documentclass{resume} % Use the custom resume.cls style
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
-\usepackage{fontawesome5}
-\usepackage{hyperref}
+
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+% Starting
 \name{Gaurav Raj Sharma}
 \address{\faPhone \ \href{tel:9779860667795}{(+977)9860667795} \ \faEnvelope \ \href{mailto:gauravrajsharma053@gmail.com}{gauravrajsharma053}}
 \address{ \href{https://github.com/GauravRajSharma} {\faGithub \ GauravRajSharma}}
 \address{Kathmandu, Nepal}
+
+
 \begin{document}
 
 \begin{rSection}{Profile Summary}
-    \begin{itemize}
-        \item  Experienced in full-stack application design, development and maintenance.
-        \item  Quickly can learn and adapt to new technologies; successful working in both teams and solo endeavours.
-    \end{itemize}
+    Dynamic and versatile Full Stack Software Engineer with a proven track record in application design, development, and maintenance. Proficient in a range of technologies, adept at learning and adapting to new tools swiftly. Thrives in collaborative team environments and excels in independent projects
 \end{rSection}
 
 \begin{rSection}{Experience}
-
-    \large{{\bf Full Stack Software Engineer}}
-    \\ \small{\textit{Ultra Tendency International GmbH 2022-present}} (\small{\textit{Full Time}})
+    % Ultra Tendency 
+    \large{{\bf Ultra Tendency International GmbH}}
+    \\ \small{\textit{\textbf{Full Stack Software Engineer}}} (\small{\textit{2022-present}})
 
     \begin{itemize}
-        \item \textbf{Website}
-              \begin{itemize}
-                  \item Developed web application to ease the process of gathering, storing and managing government contracts related data with automated alerting.
-                        \\ \footnotesize{\textbf{Tech Stack: sqlite, golang, nodejs, remix.js }}
-              \end{itemize}
+        \item Developed a multi-language support web application with dynamic content editing and restructuring \\ features, enhancing user experience.
+        \item Managed Azure services for efficient deployment of the web application, ensuring scalability and availability.
+        \item Resolved production issues with various technologies including Cosmos DB, GitHub Actions, and Azure deployment pipelines, achieving overall stablity of the system.
+        \item Designed the system architecture to optimize content management processes, resulting in easy multi-language content updates.
+        \item Designed and Developed training module for the web application to sell and distribute courses for customers.
+        \item Implemented a training module with integrated payment processing for user convenience.
     \end{itemize}
 
-    \large{{\bf Product Engineer}}
-    \\ \small{\textit{Kathmandu Metropolitan IT Department, Connect US Pvt. Ltd 2024}} (\small{\textit{Freelance}})
+    % Connect US 
+    \large{{\bf Kathmandu Metropolitan IT Department and Connect US Pvt. Ltd}}
+    \\ \small{\textit{\textbf{Full Stack Software Engineer}}} (\small{\textit{2024 (Freelance)}})
 
     \begin{itemize}
-        \item \textbf{Project Management and Monitoring System for IT Projects}
-              \begin{itemize}
-                  \item Developed web application to ease the process of gathering, storing and managing government contracts related data with automated alerting.
-                        \\ \footnotesize{\textbf{Tech Stack: sqlite, golang, nodejs, remix.js }}
-              \end{itemize}
+        \item Designed and developed a comprehensive web application for monitoring IT projects, facilitating efficient issue tracking and resolution.
+        \item Created a unified system enabling vendors and administrators to manage projects, update logs, assign tasks, and verify project statuses.
+        \item Implemented an automatic SMS notification system for deadline reminders and seamless communication between administrators and vendors.
+        \item Streamlined project management by enabling vendors to update logs and provide necessary documentation, while facilitating easy tracking of ongoing projects and deadlines for the IT department.
+        \item Empowered administrators with the capability to generate project reports by vendor, aiding in performance analysis and decision-making.
     \end{itemize}
 
+    % Bytefaucet
+    \large{{\bf Bytefaucet Pvt. Ltd}}
+    \\ \small{\textit{\textbf{Full Stack Software Engineer + Product Lead}}} (\small{\textit{2022-2024 (Freelance)}})
 
-    \large{{\bf FullStack Engineer}}
-    \\ \small{\textit{Bytefaucet Pvt. Ltd 2022-2024}} (\small{\textit{Consultant + Product Lead}})
+    \begin{enumerate}
+        \item \textbf{Weather Visualization Software for Department of Meterology and Hydrology}
+              \begin{itemize}
+                  \item Managed a team of 7 personnel to design, develop, and deliver visualization software for the Department of Hydrology.
+                  \item Implemented an Automatic Synchronization system with fault tolerance to create a database for daily real-time weather data from all stations nationwide.
+                  \item Developed station-wise and interpolated grid-wise visualization of various weather parameters for Nepal.
+                  \item Created visualization features for different meteorology metrics derived from recorded weather parameters.
+                  \item Designed a Fault Tolerant, fast, and efficient data extraction system to cater to user-specific needs, enabling users to extract large amounts of data in a fast and efficient way.
+                  \item Optimized database performance using PostgreSQL and PostGIS, resulting in significantly faster data processing compared to the existing system.
+                  \item Engineered the web application for enhanced maintainability and extensibility, including features to generate daily weather reports and different reports for each visualization for all daily weather data for Nepal.
+                  \item Implemented a fully automatic quality control system to identify and flag invalid weather data points from different station readings, making it easy to flag invalid values for investigations.
+                  \item Established an auto-maintenance system for the project, requiring minimal human intervention, ensuring continuous operation and availability.
+                  \item Enabled visualization of large datasets from 1981 to the present and ongoing in a fast and efficient way.
+              \end{itemize}
 
-    \begin{itemize}
-        \item \textbf{Department of Meterology and Hydrology}
+        \item \textbf{Contract Information Management System}
               \begin{itemize}
                   \item Developed web application to ease the process of gathering, storing and managing government contracts related data with automated alerting.
                         \\ \footnotesize{\textbf{Tech Stack: postgreSQL, nodejs, remix.js }}
               \end{itemize}
-        \item \textbf{Information Management System}
-              \begin{itemize}
-                  \item Developed web application to ease the process of gathering, storing and managing government contracts related data with automated alerting.
-                        \\ \footnotesize{\textbf{Tech Stack: postgreSQL, nodejs, remix.js }}
-              \end{itemize}
 
-    \end{itemize}
+    \end{enumerate}
 
-
-    \large{{\bf DevOps Engineer and System Architect}}
-    \\ \small{\textit{Coresoft Integrated Nepal 2021-2022}} (\small{\textit{Consultant + DevOps Engineer}})
+    % Coresoft Integrated Nepal
+    \large{{\bf Coresoft Integrated Nepal Pvt. Ltd.}}
+    \\ \small{\textit{\textbf{System Architect + DevOps Engineer}}} (\small{\textit{2021-2022 (Freelance)}})
 
     \begin{itemize}
-        \item \textbf{Application Software}
-              \begin{itemize}
-                  \item Managed the infrasturcture for different applications throughout the company.
-                        \\ \footnotesize{\textbf{Tech Stack: postgreSQL, redis, kubernetes, docker, digitalocean, nodejs }}
-              \end{itemize}
+        \item Setup dev, staging, and production environment for each product team on DigitalOcean using Kubernetes.
+        \item Added CI/CD pipelines across dev, staging, and production environments for seamless deployment.
+        \item Supported the team with all infrastructure-related issues, ensuring smooth operation.
+        \item Helped to architect the software, design databases, and create workflows for different product teams.
+        \item Supported the team with queries related to React, React Native, Node.js, Kubernetes, Docker, DigitalOcean, and PostgreSQL.
+        \item Fully managed the infrastructure of multiple projects, ensuring scalability and reliability.
     \end{itemize}
 
-
-    \large{{\bf FrontEnd Engineer}}
-    \\ \small{\textit{NDRRMA 2021-2022}} (\small{\textit{Part Time}})
+    % National Disaster Risk Reduction And Management Authority
+    \large{{\bf National Disaster Risk Reduction And Management Authority}}
+    \\ \small{\textit{\textbf{Frontend Engineer}}} (\small{\textit{2021-2022 (Freelance)}})
 
     \begin{itemize}
-        \item \textbf{Information Management System}
-              \begin{itemize}
-                  \item Developed web application to ease the process of gathering, storing and managing disaster related data with streamlining the process for managing payment rollouts for the government of nepal.
-                        \\ \footnotesize{\textbf{Tech Stack: vue.js, django, postgreSQL, postgre-GIS }}
-              \end{itemize}
+        \item Developed a comprehensive web application to streamline the process of gathering, storing, and managing disaster-related data for the government of Nepal.
+        \item Implemented advanced data management features, such as automated data entry,data updates, and secure data storage, to enhance efficiency and accuracy.
+        \item Integrated payment rollout management functionality into the web application, allowing for seamless coordination and tracking of payments related to disaster management efforts.
+
+
     \end{itemize}
 
-    \large{{\bf Full Stack Developer}}
-    \\ \small{\textit{Fiberknot Digital 2020-2022}} (\small{\textit{Full Time}})
+
+    % Fiberknot Digital Pvt. Ltd.
+    \large{{\bf Fiberknot Digital Pvt. Ltd}}
+    \\ \small{\textit{\textbf{Full Stack Software Engineer}}} (\small{\textit{2020-2022 (Full Time)}})
+
     \begin{itemize}
         \item \textbf{Complete Ecommerce Solutions}
               \begin{itemize}
@@ -103,8 +118,10 @@
               \end{itemize}
     \end{itemize}
 
-    \large{{\bf Full Stack Junior Developer}}
-    \\ \small{\textit{Podamibe Pvt. Ltd./Kathamndu 2019-2020}} (\small{\textit{Full Time}})
+    % Podamibe Pvt. Ltd
+    \large{{\bf Podamibe Pvt. Ltd}}
+    \\ \small{\textit{\textbf{Full Stack Junior Software Engineer}}} (\small{\textit{2019-2020 (Full Time)}})
+
     \begin{itemize}
         \item \textbf{Interactive Voice Response System.}
               \begin{itemize}
